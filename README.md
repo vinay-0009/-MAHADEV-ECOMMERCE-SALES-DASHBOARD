@@ -1,143 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mahadev Ecommerce Sales Dashboard</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f1724;
-      color: #e6eef8;
-      line-height: 1.6;
-      padding: 28px;
-    }
-    .container {
-      max-width: 950px;
-      margin: 0 auto;
-      background: rgba(255,255,255,0.02);
-      border-radius: 10px;
-      padding: 30px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-    h1, h2, h3 {
-      color: #d9e6ff;
-    }
-    h1 { font-size: 28px; margin-bottom: 12px; }
-    h2 { margin-top: 22px; font-size: 22px; }
-    h3 { margin-top: 16px; font-size: 18px; }
-    p { margin: 10px 0; }
-    ul { margin: 8px 0 12px 20px; }
-    li { margin: 6px 0; }
-    .cover {
-      margin: 18px 0;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    .cover img {
-      width: 100%;
-      border-radius: 8px;
-      border: 1px solid rgba(255,255,255,0.05);
-    }
-    .highlight {
-      background: rgba(255,255,255,0.05);
-      padding: 10px 14px;
-      border-radius: 8px;
-      margin: 8px 0;
-    }
-    .tech-list {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 8px;
-    }
-    .tech-item {
-      background: rgba(255,255,255,0.08);
-      padding: 8px 12px;
-      border-radius: 6px;
-      font-size: 13px;
-    }
-    footer {
-      margin-top: 30px;
-      font-size: 13px;
-      color: #8fa3d2;
-      text-align: center;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>MAHADEV E-commerce Sales Dashboard - README</title>
 </head>
 <body>
-  <div class="container">
-    <h1>📊 Mahadev Ecommerce Sales Dashboard</h1>
-    <p>
-      The <strong>Mahadev Ecommerce Sales Dashboard</strong> is an end-to-end business intelligence project designed 
-      to analyze and visualize <strong>sales performance, profit trends, and customer insights</strong>.  
-      Built with Power BI, SQL, and Excel, it helps decision-makers uncover patterns, track KPIs, 
-      and optimize business strategy through <strong>interactive visualizations</strong>.
-    </p>
+  <h1 align="center">📊 MAHADEV E-commerce Sales Dashboard</h1>
 
-    <!-- Dashboard Image -->
-    <div class="cover">
-      <img src="./mahadev_ecommerce_dashboard.jpg" alt="Mahadev Ecommerce Sales Dashboard" />
-    </div>
+  <p align="center">
+    An interactive <b>Sales Dashboard</b> built to analyze and visualize E-commerce performance metrics such as revenue, profit, sales trends, and regional performance.  
+  </p>
 
-    <h2>📌 Project Overview</h2>
-    <p>
-      This project focuses on understanding ecommerce sales data to identify profitable products, 
-      key customer segments, and regional sales trends. By creating an interactive dashboard, 
-      the project aims to <strong>improve sales forecasting, optimize product mix, and enhance customer experience</strong>.
-    </p>
+  <hr>
 
-    <h2>📊 Dashboard Highlights</h2>
-    <div class="highlight"><strong>Total Sales:</strong> 438K | <strong>Profit:</strong> 37K | <strong>Quantity:</strong> 5615 | <strong>AOV:</strong> 121K</div>
-    <ul>
-      <li><strong>Geographical Insights</strong> → State-wise sales in Maharashtra, Madhya Pradesh, Uttar Pradesh, Delhi.</li>
-      <li><strong>Category & Sub-Category Breakdown</strong> → Furniture, Electronics, Clothing, Printers, Sarees, Accessories, etc.</li>
-      <li><strong>Customer Analysis</strong> → Identifying top customers contributing to revenue.</li>
-      <li><strong>Payment Mode Insights</strong> → UPI, COD, EMI, Credit/Debit Cards distribution.</li>
-      <li><strong>Profit Trends</strong> → Month-wise profit analysis to detect seasonality.</li>
-    </ul>
+  <h2>🚀 Project Overview</h2>
+  <p>
+    This project provides an end-to-end analysis of E-commerce sales using <b>Power BI, SQL, and Python (pandas)</b>. 
+    It helps stakeholders monitor <b>Key Performance Indicators (KPIs)</b>, track customer behavior, and make 
+    data-driven business decisions.
+  </p>
 
-    <h2>🛠 Tools & Technologies</h2>
-    <div class="tech-list">
-      <div class="tech-item">Power BI</div>
-      <div class="tech-item">SQL</div>
-      <div class="tech-item">Excel</div>
-      <div class="tech-item">Python (optional)</div>
-    </div>
+  <h2>📂 Features</h2>
+  <ul>
+    <li>📌 Interactive dashboards with filters & slicers</li>
+    <li>📌 Sales performance analysis by category, region, and customer segment</li>
+    <li>📌 Revenue vs. Profit insights</li>
+    <li>📌 Top & bottom performing products</li>
+    <li>📌 Yearly, monthly & daily sales trends</li>
+    <li>📌 Data preprocessing with <b>Python (pandas)</b></li>
+    <li>📌 SQL queries for data extraction & transformation</li>
+  </ul>
 
-    <h2>📂 Dataset</h2>
-    <p>
-      The dataset contains ecommerce transaction records with fields such as 
-      <strong>Order Date, Customer ID, State, Product Category, Sub-Category, Quantity, Sales, and Profit</strong>.  
-      Data was cleaned and transformed using SQL/Excel before visualization in Power BI.
-    </p>
+  <h2>🛠️ Tech Stack</h2>
+  <ul>
+    <li><b>Power BI</b> – Dashboard creation & visualization</li>
+    <li><b>Python</b> – Data cleaning & transformation</li>
+    <li><b>Pandas</b> – Data manipulation</li>
+    <li><b>SQL</b> – Data extraction & querying</li>
+    <li><b>Excel/CSV</b> – Dataset source</li>
+  </ul>
 
-    <h2>🚀 Impact</h2>
-    <ul>
-      <li>✔ Enables quick <strong>KPI monitoring</strong> for management decisions.</li>
-      <li>✔ Provides <strong>regional and product-level insights</strong> to optimize strategy.</li>
-      <li>✔ Helps identify <strong>high-value customers</strong> and improve retention.</li>
-      <li>✔ Enhances ability to <strong>forecast demand and profitability</strong>.</li>
-    </ul>
+  <h2>📊 Dashboard Preview</h2>
+  <p align="center">
+    <i>Insert screenshot of your dashboard here</i><br>
+    <img src="dashboard-preview.png" alt="Dashboard Preview" width="700">
+  </p>
 
-    <h2>✅ Conclusion</h2>
-    <p>
-      The <strong>Mahadev Ecommerce Sales Dashboard</strong> demonstrates how data visualization can transform raw sales data 
-      into actionable insights. It showcases the ability to combine <strong>data cleaning, SQL querying, and BI tools</strong> 
-      to deliver value to stakeholders.
-    </p>
+  <h2>📁 Project Structure</h2>
+  <pre>
+  ├── data/                 # Raw & cleaned datasets
+  ├── sql/                  # SQL queries
+  ├── notebooks/            # Python preprocessing scripts
+  ├── dashboard/            # Power BI .pbix file
+  ├── images/               # Dashboard screenshots
+  └── README.html           # Project documentation
+  </pre>
 
-    <h2>📬 Contact</h2>
-    <p>
-      💡 Created by <strong>Your Name</strong><br>
-      🔗 <a href="https://linkedin.com/in/your-linkedin" target="_blank" style="color:#bcd2ff;">LinkedIn</a> | 
-      <a href="https://github.com/your-github" target="_blank" style="color:#bcd2ff;">GitHub</a>
-    </p>
+  <h2>📈 Insights Derived</h2>
+  <ul>
+    <li>💡 Identified top-selling product categories driving majority of revenue</li>
+    <li>💡 Seasonal trends affecting monthly sales performance</li>
+    <li>💡 Regional contribution to overall profit & sales</li>
+    <li>💡 Customer segment analysis for targeted marketing</li>
+  </ul>
 
-    <footer>
-      Place <code>mahadev_ecommerce_dashboard.jpg</code> in your repo root or an <code>images/</code> folder and update the path above.
-    </footer>
-  </div>
+  <h2>📌 How to Use</h2>
+  <ol>
+    <li>Clone the repository:</li>
+    <pre>git clone https://github.com/yourusername/MAHADEV-ECOMMERCE-SALES-DASHBOARD.git</pre>
+    <li>Explore SQL queries & Python preprocessing scripts.</li>
+    <li>Open the <code>.pbix</code> file in Power BI to view the dashboard.</li>
+  </ol>
+
+  <h2>📬 Contact</h2>
+  <p>
+    👤 <b>Author:</b> Mahadev (Your Name)<br>
+    📧 <a href="mailto:yourmail@example.com">yourmail@example.com</a><br>
+    🔗 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+  </p>
+
+  <hr>
+  <p align="center">⭐ If you like this project, don't forget to star the repo!</p>
 </body>
 </html>
