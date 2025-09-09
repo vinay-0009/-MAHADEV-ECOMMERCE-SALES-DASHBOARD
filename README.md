@@ -67,7 +67,7 @@
   <h2>📌 How to Use</h2>
   <ol>
     <li>Clone the repository:</li>
-    <pre>git clone https://github.com/yourusername/MAHADEV-ECOMMERCE-SALES-DASHBOARD.git</pre>
+    <pre>git clone https://github.com/vinay-0009/-MAHADEV-ECOMMERCE-SALES-DASHBOARD</pre>
     <li>Explore SQL queries & Python preprocessing scripts.</li>
     <li>Open the <code>.pbix</code> file in Power BI to view the dashboard.</li>
   </ol>
@@ -75,9 +75,9 @@
   <h2>📬 Contact</h2>
   <p>
     👤 <b>Author:</b> Mahadev (Your Name)<br>
-    📧 <a href="mailto:yourmail@example.com">yourmail@example.com</a><br>
-    🔗 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    📧 <a href="mailto:parasharvinay199@gmail.com">parasharvinay199@gmail.com</a><br>
+    🔗 <a href="https://www.linkedin.com/in/vinay-parashar-955975300/">LinkedIn</a> | 
+    <a href="https://github.com/vinay-0009/-MAHADEV-ECOMMERCE-SALES-DASHBOARD" target="_blank">GitHub</a>
   </p>
 
   <hr>
